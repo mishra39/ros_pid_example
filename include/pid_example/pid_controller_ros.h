@@ -57,3 +57,5 @@ private:
     ///
     double measurement_;
 };
+
+#endif // PID_CONTROLLER_ROS_H
