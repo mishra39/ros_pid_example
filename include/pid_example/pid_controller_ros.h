@@ -46,6 +46,7 @@ public:
     /// \param msg ROS msg containing referent value.
     ///
     void referenceCallback(const std_msgs::Float32::ConstPtr &msg);
+    void measurementCallback(const std_msgs::Float32::ConstPtr &msg);
 
 private:
 
