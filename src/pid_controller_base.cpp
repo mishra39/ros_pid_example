@@ -127,7 +127,7 @@ double PidControllerBase::compute(double ref, double meas)
     if (td < td_min_)
     {
         td = td_min_;
-        std::cout << "Warning - time step smaller than " << td_min_ << std::endl;
+        //std::cout << "Warning - time step smaller than " << td_min_ << std::endl;
     }
     else if (td > td_max_)
     {

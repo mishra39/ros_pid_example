@@ -1,0 +1,11 @@
+<launch>
+    <arg name="kp" default="0.0"/>
+    <arg name="ki" default="0.0"/>
+    <arg name="kd" default="0.0"/>
+    <arg name="u_max" default="0.0"/>
+    <arg name="u_min" default="0.0"/>
+    <arg name="rate" default="100.0"/>
+
+    <!--Launch PID Controller ROS node-->
+    <node pkg="pid_example" type="pid_controller_node" name="pid_controller_node" output="screen"/>
+</launch>
