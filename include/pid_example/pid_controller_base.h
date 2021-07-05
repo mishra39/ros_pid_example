@@ -29,7 +29,7 @@ class PidControllerBase
 public:
     /// \brief PID controller default constructor.
     ///
-    /// Initializes PID gains to zero.
+    /// Initializes PID gains to zero
     ///
     PidControllerBase();
 
