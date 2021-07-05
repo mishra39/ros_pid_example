@@ -24,6 +24,12 @@
 /// td - time elapsed from the previous step (in seconds)
 ///
 
+namespace Base 
+{
+    int val = 0;
+    int id = 0;
+}
+
 class PidControllerBase
 {
 public:
